@@ -1,0 +1,16 @@
+App.progressCountTotal = 2;
+App.progressCountCurrent = 0;
+fw.dismissBatchDialogWhenDone = true;
+doc = fw.openDocument('file:///MACINTOSH HD/Desktop Folder/functionalart/images/mantles/mantle1.jpg');
+App.progressCountCurrent = 1;
+App.batchStatusString = 'mantle1.jpg';
+fw.exportDocumentAs(doc, 'file:///MACINTOSH HD/Desktop Folder/functionalart/images/mantles/images/mantle1_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+fw.exportDocumentAs(doc, 'file:///MACINTOSH HD/Desktop Folder/functionalart/images/mantles/thumbnails/mantle1_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+doc = fw.openDocument('file:///MACINTOSH HD/Desktop Folder/functionalart/images/mantles/mantle2.jpg');
+App.progressCountCurrent = 2;
+App.batchStatusString = 'mantle2.jpg';
+fw.exportDocumentAs(doc, 'file:///MACINTOSH HD/Desktop Folder/functionalart/images/mantles/images/mantle2_jpg.jpg',{applyScale:false, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:"100", useScale:true, xSize:0, ySize:0});
+fw.exportDocumentAs(doc, 'file:///MACINTOSH HD/Desktop Folder/functionalart/images/mantles/thumbnails/mantle2_jpg.jpg',{applyScale:true, colorMode:"24 bit", exportFormat:"JPEG", jpegQuality:80, jpegSmoothness:0, jpegSubsampling:0, name:"JPEG - Better Quality", numEntriesRequested:0, percentScale:100, useScale:false, xSize:-100, ySize:-100});
+fw.closeDocument(doc);
+'done';

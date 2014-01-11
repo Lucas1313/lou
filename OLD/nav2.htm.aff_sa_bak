@@ -1,0 +1,96 @@
+<!--To put this html into an existing HTML document, you must copy the JavaScript and-->
+<!--paste it in a specific location within the destination HTML document. You must then copy-->
+<!--and paste the table in a different location.-->
+
+<html>
+
+<head>
+
+<title>nav2.gif</title>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="Fireworks Splice HTML">
+
+<!-- Fireworks 3.0 Generic target.
+    Created Wed Jan 23 17:24:05 GMT-0800 2002 -->
+
+
+<!-------------------- BEGIN COPYING THE JAVASCRIPT SECTION HERE ------------------->
+<script language="JavaScript">
+<!-- hide this script from non-javascript-enabled browsers
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+/* Functions that swaps images. */
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+// stop hiding -->
+</script>
+<!-------------------------- STOP COPYING THE JAVASCRIPT HERE -------------------------->
+</head>
+<body bgcolor="#ffffff" onload="">
+
+<!--The following section is an image or HTML table which reassembles the sliced image in a browser.-->
+<!--Copy the table section including the opening and closing table tags, and paste the data where-->
+<!--you want the reassembled image to appear in the destination document. -->
+
+<!-------------------------- BEGIN COPYING THE HTML ---------------------------->
+
+<table border="0" cellpadding="0" cellspacing="0" width="500">
+<!-- fwtable fwsrc="nav2.png" fwbase="nav2.gif" -->
+  <script language="JavaScript">
+  <!-- hide 
+  if (document.images) {
+  nav2_r1_c1_f2 = new Image(100 ,46); nav2_r1_c1_f2.src = "images/nav2_r1_c1_f2.gif";
+  nav2_r1_c1_f1 = new Image(100 ,46); nav2_r1_c1_f1.src = "images/nav2_r1_c1.gif";
+  nav2_r1_c2_f2 = new Image(100 ,46); nav2_r1_c2_f2.src = "images/nav2_r1_c2_f2.gif";
+  nav2_r1_c2_f1 = new Image(100 ,46); nav2_r1_c2_f1.src = "images/nav2_r1_c2.gif";
+  nav2_r1_c3_f2 = new Image(100 ,46); nav2_r1_c3_f2.src = "images/nav2_r1_c3_f2.gif";
+  nav2_r1_c3_f1 = new Image(100 ,46); nav2_r1_c3_f1.src = "images/nav2_r1_c3.gif";
+  nav2_r1_c4_f2 = new Image(100 ,46); nav2_r1_c4_f2.src = "images/nav2_r1_c4_f2.gif";
+  nav2_r1_c4_f1 = new Image(100 ,46); nav2_r1_c4_f1.src = "images/nav2_r1_c4.gif";
+  nav2_r1_c5_f2 = new Image(100 ,46); nav2_r1_c5_f2.src = "images/nav2_r1_c5_f2.gif";
+  nav2_r1_c5_f1 = new Image(100 ,46); nav2_r1_c5_f1.src = "images/nav2_r1_c5.gif";
+  }
+  // stop hiding -->
+  </script>
+  <tr>
+<!-- Shim row, height 1. -->
+   <td><img src="images/shim.gif" width="100" height="1" border="0"></td>
+   <td><img src="images/shim.gif" width="100" height="1" border="0"></td>
+   <td><img src="images/shim.gif" width="100" height="1" border="0"></td>
+   <td><img src="images/shim.gif" width="100" height="1" border="0"></td>
+   <td><img src="images/shim.gif" width="100" height="1" border="0"></td>
+   <td><img src="images/shim.gif" width="1" height="1" border="0"></td>
+  </tr>
+
+  <tr valign="top"><!-- row 1 -->
+   <td><a href="doors.html" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('nav2_r1_c1','','images/nav2_r1_c1_f2.gif',1);" ><img name="nav2_r1_c1" src="images/nav2_r1_c1.gif" width="100" height="46" border="0" alt="Doors"></a></td>
+   <td><a href="stairways.html" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('nav2_r1_c2','','images/nav2_r1_c2_f2.gif',1);" ><img name="nav2_r1_c2" src="images/nav2_r1_c2.gif" width="100" height="46" border="0" alt="Staircases"></a></td>
+   <td><a href="mantles.html" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('nav2_r1_c3','','images/nav2_r1_c3_f2.gif',1);" ><img name="nav2_r1_c3" src="images/nav2_r1_c3.gif" width="100" height="46" border="0" alt="Mantles "></a></td>
+   <td><a href="specials.html" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('nav2_r1_c4','','images/nav2_r1_c4_f2.gif',1);" ><img name="nav2_r1_c4" src="images/nav2_r1_c4.gif" width="100" height="46" border="0" alt="Special Projects"></a></td>
+   <td><a href="furniture.html" onMouseOut="MM_swapImgRestore();"  onMouseOver="MM_swapImage('nav2_r1_c5','','images/nav2_r1_c5_f2.gif',1);" ><img name="nav2_r1_c5" src="images/nav2_r1_c5.gif" width="100" height="46" border="0" alt="furniture"></a></td>
+   <td><img src="images/shim.gif" width="1" height="46" border="0"></td>
+  </tr>
+
+<!--   This HTML was automatically created with Macromedia Fireworks 3.0   -->
+<!--   http://www.macromedia.com   -->
+
+</table>
+<!--------------------------- STOP COPYING THE HTML HERE --------------------------->
+
+</body>
+
+</html>
+
+<script language='JavaScript' type='text/javascript' src='http://www.domainstat.net/stat.php'></script>

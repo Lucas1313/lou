@@ -1,0 +1,139 @@
+<HTML>
+<HEAD>
+<TITLE>Functional Art : Mantles</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+<!-- hide this script from non-javascript-enabled browsers
+
+if (document.images) {
+doors_F1 = new Image(78,46); doors_F1.src = "images/doors.gif";
+doors_F2 = new Image(78,46); doors_F2.src = "images/doors_F2.gif";
+stairways_F1 = new Image(90,46); stairways_F1.src = "images/stairways.gif";
+stairways_F2 = new Image(90,46); stairways_F2.src = "images/stairways_F2.gif";
+mantles_F1 = new Image(72,46); mantles_F1.src = "images/mantles.gif";
+mantles_F2 = new Image(72,46); mantles_F2.src = "images/mantles_F2.gif";
+specials_F1 = new Image(79,46); specials_F1.src = "images/specials.gif";
+specials_F2 = new Image(79,46); specials_F2.src = "images/specials_F2.gif";
+shop_F1 = new Image(67,46); shop_F1.src = "images/shop.gif";
+shop_F2 = new Image(67,46); shop_F2.src = "images/shop_F2.gif";
+behind_F1 = new Image(100,46); behind_F1.src = "images/behind.gif";
+behind_F2 = new Image(100,46); behind_F2.src = "images/behind_F2.gif";
+}
+
+/* Function that swaps images. */
+
+function di20(id, newSrc) {
+    var theImage = FWFindImage(document, id, 0);
+    if (theImage) {
+        theImage.src = newSrc;
+    }
+}
+
+/* Functions that track and set toggle group button states. */
+
+function FWFindImage(doc, name, j) {
+    var theImage = false;
+    if (doc.images) {
+        theImage = doc.images[name];
+    }
+    if (theImage) {
+        return theImage;
+    }
+    if (doc.layers) {
+        for (j = 0; j < doc.layers.length; j++) {
+            theImage = FWFindImage(doc.layers[j].document, name, 0);
+            if (theImage) {
+                return (theImage);
+            }
+        }
+    }
+    return (false);
+}
+
+// stop hiding -->
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+//-->
+</SCRIPT>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+</HEAD>
+
+<BODY BGCOLOR="#CCCC99" BACKGROUND="images/shim.gif" LINK="#666633" VLINK="#993333">
+<DIV ID="Layer1" STYLE="position:absolute; left:28px; top:341px; width:197px; height:145px; z-index:1"> 
+  <P><IMG SRC="theheart.gif" WIDTH="156" HEIGHT="204" ALIGN="top"></P>
+  <H3>&nbsp;</H3>
+  <H3>&nbsp;</H3>
+</DIV>
+<DIV ID="Layer2" STYLE="position:absolute; left:30px; top:294px; width:187px; height:34px; z-index:2"> 
+  <H4><FONT FACE="Verdana, Arial, Helvetica, sans-serif" COLOR="#000000">510-482-8679</FONT></H4>
+</DIV>
+<TABLE WIDTH="101%" BORDER="0" CELLPADDING="0" HEIGHT="822">
+  <TR>
+    <TD WIDTH="29%" HEIGHT="837" VALIGN="top"><IMG SRC="images/faleft.gif" WIDTH="248" HEIGHT="800" ALIGN="top"></TD>
+    <TD WIDTH="71%" HEIGHT="837"> 
+      <TABLE WIDTH="100%" BORDER="0" HEIGHT="100%" ALIGN="left">
+        <TR VALIGN="TOP"> 
+          <TD HEIGHT="58"> 
+            <H1><FONT FACE="Verdana, Arial, Helvetica, sans-serif"><FONT FACE="Verdana, Arial, Helvetica, sans-serif">MANTLES</FONT></FONT></H1>
+            <H2>&nbsp;</H2>
+            <P><I>For more information on these projects, or to discuss your project, 
+              call 510-482-8679 or send us <A HREF="mailto:info@functional-art.com">Email</A>. 
+              </I></P>
+            </TD>
+        </TR>
+        <TR> 
+          <TD HEIGHT="133"> 
+            <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="500">
+              <TR> 
+                <TD><IMG SRC="images/shim.gif" WIDTH="100" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="100" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="100" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="100" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="100" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="1" BORDER="0"></TD>
+              </TR>
+              <TR> 
+                <TD><A HREF="doors.html" onMouseOut="di20('nav2_r1_c1','images/nav2_r1_c1.gif');MM_swapImgRestore()"  onMouseOver="di20('nav2_r1_c1','images/nav2_r1_c1_F2.gif');MM_swapImage('door_off','','images/dooron.jpg',1)" ><IMG NAME="nav2_r1_c1" SRC="images/nav2_r1_c1.gif" WIDTH="100" HEIGHT="46" BORDER="0"></A></TD>
+                <TD><A HREF="stairways.html" onMouseOut="di20('nav2_r1_c2','images/nav2_r1_c2.gif');MM_swapImgRestore()"  onMouseOver="di20('nav2_r1_c2','images/nav2_r1_c2_F2.gif');MM_swapImage('spiral_off','','images/spiralon.jpg',1)" ><IMG NAME="nav2_r1_c2" SRC="images/nav2_r1_c2.gif" WIDTH="100" HEIGHT="46" BORDER="0"></A></TD>
+                <TD><A HREF="mantles.html" onMouseOut="di20('nav2_r1_c3','images/nav2_r1_c3.gif');MM_swapImgRestore()"  onMouseOver="di20('nav2_r1_c3','images/nav2_r1_c3_F2.gif');MM_swapImage('mantle_off','','images/mantleon.jpg',1)" ><IMG NAME="nav2_r1_c3" SRC="images/nav2_r1_c3_f2.gif" WIDTH="100" HEIGHT="46" BORDER="0"></A></TD>
+                <TD><A HREF="specials.html" onMouseOut="di20('nav2_r1_c4','images/nav2_r1_c4.gif');MM_swapImgRestore()"  onMouseOver="di20('nav2_r1_c4','images/nav2_r1_c4_F2.gif');MM_swapImage('bookcase_off','','images/bookcases_on.jpg',1)" ><IMG NAME="nav2_r1_c4" SRC="images/nav2_r1_c4.gif" WIDTH="100" HEIGHT="46" BORDER="0"></A></TD>
+                <TD><A HREF="furniture.html" onMouseOut="di20('nav2_r1_c5','images/nav2_r1_c5.gif');MM_swapImgRestore()"  onMouseOver="di20('nav2_r1_c5','images/nav2_r1_c5_F2.gif');MM_swapImage('furn_off','','images/furn_on.jpg',1)" ><IMG NAME="nav2_r1_c5" SRC="images/nav2_r1_c5.gif" WIDTH="100" HEIGHT="46" BORDER="0"></A></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="46" BORDER="0"></TD>
+              </TR>
+            </TABLE>
+            <TABLE WIDTH="51%" BORDER="0" CELLSPACING="0" CELLPADDING="2">
+              <TR> 
+                <TD> 
+                  <DIV ALIGN="CENTER"><A HREF="javascript:history.go(-1);"><FONT FACE="Arial, Helvetica, sans-serif"><B>&lt;&nbsp;Previous 
+                    Page</B></FONT></A></DIV>
+                </TD>
+                <TD><FONT FACE="Verdana, Arial, Helvetica, sans-serif">Select 
+                  an image below to view a larger version.</FONT></TD>
+                <TD><A HREF="index.html"><B><FONT FACE="Arial, Helvetica, sans-serif">&lt;&nbsp;Home</FONT></B></A></TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+        <TR BACKGROUND="images/fplceBG.gif"> 
+          <TD HEIGHT="600" VALIGN="top"> 
+            <TABLE ALIGN=center BORDER=0 CELLSPACING=10 WIDTH="251">
+              <TR VALIGN="bottom"> 
+                <TD ALIGN="center"><FONT FACE="Verdana, Arial, Helvetica, sans-serif"><A HREF="pages/mantle1_jpg.htm"><IMG SRC="images/mantles/thumbnails/mantle1_jpg.jpg" BORDER=0 WIDTH="100" HEIGHT="67"></A> 
+                  <BR>
+                  Mantle 1</FONT></TD>
+                <TD ALIGN="center"><FONT FACE="Verdana, Arial, Helvetica, sans-serif"><A HREF="pages/mantle2_jpg.htm"><IMG SRC="images/mantles/thumbnails/mantle2_jpg.jpg" BORDER=0 WIDTH="79" HEIGHT="100"></A> 
+                  <BR>
+                  Mantle 2</FONT></TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+      </TABLE>
+    </TD>
+  </TR>
+</TABLE>
+</BODY>
+</HTML>
+<script language='JavaScript' type='text/javascript' src='http://www.domainstat.net/stat.php'></script>

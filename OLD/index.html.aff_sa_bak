@@ -1,0 +1,180 @@
+<HTML>
+<HEAD>
+<TITLE>Functional Art : Doors</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+<!-- hide this script from non-javascript-enabled browsers
+
+if (document.images) {
+doors_F1 = new Image(78,46); doors_F1.src = "images/doors.gif";
+doors_F2 = new Image(78,46); doors_F2.src = "images/doors_F2.gif";
+stairways_F1 = new Image(90,46); stairways_F1.src = "images/stairways.gif";
+stairways_F2 = new Image(90,46); stairways_F2.src = "images/stairways_F2.gif";
+mantles_F1 = new Image(72,46); mantles_F1.src = "images/mantles.gif";
+mantles_F2 = new Image(72,46); mantles_F2.src = "images/mantles_F2.gif";
+specials_F1 = new Image(79,46); specials_F1.src = "images/specials.gif";
+specials_F2 = new Image(79,46); specials_F2.src = "images/specials_F2.gif";
+shop_F1 = new Image(67,46); shop_F1.src = "images/shop.gif";
+shop_F2 = new Image(67,46); shop_F2.src = "images/shop_F2.gif";
+behind_F1 = new Image(100,46); behind_F1.src = "images/behind.gif";
+behind_F2 = new Image(100,46); behind_F2.src = "images/behind_F2.gif";
+}
+
+/* Function that swaps images. */
+
+function di20(id, newSrc) {
+    var theImage = FWFindImage(document, id, 0);
+    if (theImage) {
+        theImage.src = newSrc;
+    }
+}
+
+/* Functions that track and set toggle group button states. */
+
+function FWFindImage(doc, name, j) {
+    var theImage = false;
+    if (doc.images) {
+        theImage = doc.images[name];
+    }
+    if (theImage) {
+        return theImage;
+    }
+    if (doc.layers) {
+        for (j = 0; j < doc.layers.length; j++) {
+            theImage = FWFindImage(doc.layers[j].document, name, 0);
+            if (theImage) {
+                return (theImage);
+            }
+        }
+    }
+    return (false);
+}
+
+// stop hiding -->
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v3.0
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+</HEAD>
+
+<BODY BGCOLOR="#CCCC99" BACKGROUND="images/shim.gif" LINK="#666633" VLINK="#993333" onLoad="MM_preloadImages('images/nav3_r2_c02_f2.gif','images/nav3_r2_c04_f2.gif','images/nav3_r2_c06_f2.gif','images/nav3_r2_c08_f2.gif')">
+<DIV ID="Layer1" STYLE="position:absolute; left:30; top:315; width:197px; height:145px; z-index:1"> 
+  <P><FONT FACE="Verdana, Arial, Helvetica, sans-serif" COLOR="#000000"><B>PO 
+    Box 712<BR>
+    Alameda, CA 94501<BR>
+    </B></FONT><B><FONT FACE="Verdana, Arial, Helvetica, sans-serif" COLOR="#000000">510-482-8679</FONT></B></P>
+  <P><FONT FACE="Verdana, Arial, Helvetica, sans-serif" COLOR="#000000" SIZE="1">License 
+    # 573208</FONT> </P>
+  <H3><IMG SRC="theheart.gif" width="156" height="204" ALIGN="top"></H3>
+  <H3>&nbsp;</H3>
+</DIV>
+<TABLE WIDTH="102%" BORDER="0" CELLPADDING="0" HEIGHT="814">
+  <TR>
+    <TD WIDTH="29%" HEIGHT="800" VALIGN="top"><IMG SRC="images/faleft.gif" width="248" height="800" ALIGN="top"></TD>
+    <TD WIDTH="71%" HEIGHT="800"> 
+      <TABLE WIDTH="100%" BORDER="0" HEIGHT="100%" ALIGN="left">
+        <TR> 
+          <TD HEIGHT="44"> 
+            <P>&nbsp;</P>
+            <P><FONT FACE="Arial, Helvetica, sans-serif"><img border="0" src="images/producer.gif" width="240" height="75"></FONT></P>
+            <P><I>For more information on these projects, or to discuss your project, 
+              call 510-482-8679 or send us <A HREF="mailto:info@functional-art.com">Email</A>. 
+              </I> </P>
+            
+          </TD>
+        </TR>
+        <TR> 
+          <TD HEIGHT="75"> <!--The following section is an HTML table which reassembles the sliced image in a browser.--> 
+            <!--Copy the table section including the opening and closing table tags, and paste the data where--> 
+            <!--you want the reassembled image to appear in the destination document. --> 
+            <!-------------------------- BEGIN COPYING THE HTML HERE ----------------------------> 
+            <!-- Image with table --> 
+            <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="500">
+              <!-- fwtable fwsrc="nav3.png" fwbase="nav3.gif" --> 
+              <TR> <!-- Shim row, height 1. --> 
+                <TD><IMG SRC="images/shim.gif" WIDTH="7" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="112" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="12" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="112" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="13" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="112" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="13" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="112" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="7" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" width="1" height="1" BORDER="0"></TD>
+              </TR>
+              <TR VALIGN="top"><!-- row 1 --> 
+                <TD COLSPAN="9"><IMG NAME="nav3_r1_c01" SRC="images/nav3_r1_c01.gif" width="500" height="9" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="9" BORDER="0"></TD>
+              </TR>
+              <TR VALIGN="top"><!-- row 2 --> 
+                <TD ROWSPAN="2"><IMG NAME="nav3_r2_c01" SRC="images/nav3_r2_c01.gif" width="7" height="37" BORDER="0"></TD>
+                <TD><A HREF="doors.html"  onMouseOver="MM_swapImage('nav3_r2_c02','','images/nav3_r2_c02_f2.gif',1)" onMouseOut="MM_swapImgRestore()" ><IMG NAME="nav3_r2_c02" SRC="images/nav3_r2_c02.gif" width="112" height="27" BORDER="0" ALT="Doors and sash"></A></TD>
+                <TD ROWSPAN="2"><IMG NAME="nav3_r2_c03" SRC="images/nav3_r2_c03.gif" width="12" height="37" BORDER="0"></TD>
+                <TD><A HREF="stairways.html" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('nav3_r2_c04','','images/nav3_r2_c04_f2.gif',1);" ><IMG NAME="nav3_r2_c04" SRC="images/nav3_r2_c04.gif" width="112" height="27" BORDER="0" ALT="Stairways"></A></TD>
+                <TD ROWSPAN="2"><IMG NAME="nav3_r2_c05" SRC="images/nav3_r2_c05.gif" width="13" height="37" BORDER="0"></TD>
+                <TD><A HREF="specials.html" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('nav3_r2_c06','','images/nav3_r2_c06_f2.gif',1);" ><IMG NAME="nav3_r2_c06" SRC="images/nav3_r2_c06.gif" width="112" height="27" BORDER="0"></A></TD>
+                <TD ROWSPAN="2"><IMG NAME="nav3_r2_c07" SRC="images/nav3_r2_c07.gif" width="13" height="37" BORDER="0"></TD>
+                <TD><A HREF="bio.html" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('nav3_r2_c08','','images/nav3_r2_c08_f2.gif',1);" ><IMG NAME="nav3_r2_c08" SRC="images/nav3_r2_c08.gif" width="112" height="27" BORDER="0" ALT="biography"></A></TD>
+                <TD ROWSPAN="2"><IMG NAME="nav3_r2_c09" SRC="images/nav3_r2_c09.gif" width="7" height="37" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="27" BORDER="0"></TD>
+              </TR>
+              <TR VALIGN="top"><!-- row 3 --> 
+                <TD><IMG NAME="nav3_r3_c02" SRC="images/nav3_r3_c02.gif" width="112" height="10" BORDER="0"></TD>
+                <TD><IMG NAME="nav3_r3_c04" SRC="images/nav3_r3_c04.gif" width="112" height="10" BORDER="0"></TD>
+                <TD><IMG NAME="nav3_r3_c06" SRC="images/nav3_r3_c06.gif" width="112" height="10" BORDER="0"></TD>
+                <TD><IMG NAME="nav3_r3_c08" SRC="images/nav3_r3_c08.gif" width="112" height="10" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="10" BORDER="0"></TD>
+              </TR>
+              <!--   This table was automatically created with Macromedia Fireworks 3.0   --> 
+              <!--   http://www.macromedia.com   --> 
+              <TR VALIGN="top"> 
+                <TD></TD>
+                <TD align="center"><img border="0" src="images/dooroff.jpg" width="90" height="115"></TD>
+                <TD></TD>
+                <TD align="center"><img border="0" src="images/spiraloff.jpg" width="91" height="115"></TD>
+                <TD></TD>
+                <TD align="center"><img border="0" src="images/furnoff_f02.jpg" width="90" height="112"></TD>
+                <TD></TD>
+                <TD align="center"><img border="0" src="images/litcrpntr_sepia.jpg" width="90" height="115"></TD>
+                <TD></TD>
+                <TD></TD>
+              </TR>
+            </TABLE>
+            <!--------------------------- STOP COPYING THE HTML HERE ---------------------------> 
+            <BR>
+          </TD>
+        </TR>
+        <TR> 
+          <TD HEIGHT="600" VALIGN="top"> 
+            <img border="0" src="images/stairsgeomBG.gif" width="400" height="561">
+          </TD>
+        </TR>
+      </TABLE>
+    </TD>
+  </TR>
+</TABLE>
+</BODY>
+</HTML>
+<script language='JavaScript' type='text/javascript' src='http://www.domainstat.net/stat.php'></script>

@@ -1,0 +1,161 @@
+<HTML>
+<HEAD>
+<TITLE>Functional Art : Shop</TITLE>
+<SCRIPT LANGUAGE="JavaScript">
+<!-- hide this script from non-javascript-enabled browsers
+
+if (document.images) {
+doors_F1 = new Image(78,46); doors_F1.src = "images/doors.gif";
+doors_F2 = new Image(78,46); doors_F2.src = "images/doors_F2.gif";
+stairways_F1 = new Image(90,46); stairways_F1.src = "images/stairways.gif";
+stairways_F2 = new Image(90,46); stairways_F2.src = "images/stairways_F2.gif";
+mantles_F1 = new Image(72,46); mantles_F1.src = "images/mantles.gif";
+mantles_F2 = new Image(72,46); mantles_F2.src = "images/mantles_F2.gif";
+specials_F1 = new Image(79,46); specials_F1.src = "images/specials.gif";
+specials_F2 = new Image(79,46); specials_F2.src = "images/specials_F2.gif";
+shop_F1 = new Image(67,46); shop_F1.src = "images/shop.gif";
+shop_F2 = new Image(67,46); shop_F2.src = "images/shop_F2.gif";
+behind_F1 = new Image(100,46); behind_F1.src = "images/behind.gif";
+behind_F2 = new Image(100,46); behind_F2.src = "images/behind_F2.gif";
+}
+
+/* Function that swaps images. */
+
+function di20(id, newSrc) {
+    var theImage = FWFindImage(document, id, 0);
+    if (theImage) {
+        theImage.src = newSrc;
+    }
+}
+
+/* Functions that track and set toggle group button states. */
+
+function FWFindImage(doc, name, j) {
+    var theImage = false;
+    if (doc.images) {
+        theImage = doc.images[name];
+    }
+    if (theImage) {
+        return theImage;
+    }
+    if (doc.layers) {
+        for (j = 0; j < doc.layers.length; j++) {
+            theImage = FWFindImage(doc.layers[j].document, name, 0);
+            if (theImage) {
+                return (theImage);
+            }
+        }
+    }
+    return (false);
+}
+
+// stop hiding -->
+</SCRIPT>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1">
+</HEAD>
+
+<BODY BGCOLOR="#CCCC99" BACKGROUND="images/shim.gif">
+<DIV ID="Layer1" STYLE="position:absolute; left:28px; top:341px; width:197px; height:145px; z-index:1"><IMG SRC="theheart.gif" WIDTH="156" HEIGHT="204" ALIGN="top"></DIV>
+<TABLE WIDTH="101%" BORDER="0" CELLPADDING="0" HEIGHT="822">
+  <TR>
+    <TD WIDTH="29%" HEIGHT="837" VALIGN="top"><IMG SRC="images/faleft.gif" WIDTH="248" HEIGHT="800" ALIGN="top"></TD>
+    <TD WIDTH="71%" HEIGHT="837"> 
+      <TABLE WIDTH="100%" BORDER="0" HEIGHT="100%" ALIGN="left">
+        <TR> 
+          <TD HEIGHT="114"> 
+            <P><FONT FACE="Verdana, Arial, Helvetica, sans-serif" SIZE="+2">SHOP</FONT></P>
+            <P><IMG SRC="images/producer.gif" WIDTH="240" HEIGHT="75"></P>
+            <P>&nbsp;</P>
+          </TD>
+        </TR>
+        <TR> 
+          <TD HEIGHT="133"> <!--The following section is an HTML table which reassembles the sliced image in a browser.--> 
+            <!--Copy the table section including the opening and closing table tags, and paste the data where--> 
+            <!--you want the reassembled image to appear in the destination document. --> 
+            <!-------------------------- BEGIN COPYING THE TABLE HERE ----------------------------> 
+            <!-- Image with table --> 
+            <TABLE BORDER="0" CELLPADDING="0" CELLSPACING="0" WIDTH="486">
+              <TR><!-- Shim row, height 1. --> 
+                <TD><IMG SRC="images/shim.gif" WIDTH="78" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="90" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="72" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="79" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="67" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="100" HEIGHT="1" BORDER="0"></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="1" BORDER="0"></TD>
+              </TR>
+              <TR><!-- row 1 --> 
+                <TD><A HREF="doors.html" onMouseOut="di20('doors','images/doors.gif');"  onMouseOver="di20('doors','images/doors_F2.gif');" ><IMG NAME="doors" SRC="images/doors.gif" WIDTH="78" HEIGHT="46" BORDER="0" ALT="doors"></A></TD>
+                <TD><A HREF="stairways.html" onMouseOut="di20('stairways','images/stairways.gif');"  onMouseOver="di20('stairways','images/stairways_F2.gif');" ><IMG NAME="stairways" SRC="images/stairways.gif" WIDTH="90" HEIGHT="46" BORDER="0" ALT="Stairways"></A></TD>
+                <TD><A HREF="mantles.html" onMouseOut="di20('mantles','images/mantles.gif');"  onMouseOver="di20('mantles','images/mantles_F2.gif');" ><IMG NAME="mantles" SRC="images/mantles.gif" WIDTH="72" HEIGHT="46" BORDER="0" ALT="Mantles "></A></TD>
+                <TD><A HREF="specials.html" onMouseOut="di20('specials','images/specials.gif');"  onMouseOver="di20('specials','images/specials_F2.gif');" ><IMG NAME="specials" SRC="images/specials.gif" WIDTH="79" HEIGHT="46" BORDER="0" ALT="Specials"></A></TD>
+                <TD><A HREF="shop.html" onMouseOut="di20('shop','images/shop.gif');"  onMouseOver="di20('shop','images/shop_F2.gif');" ><IMG NAME="shop" SRC="images/shop.gif" WIDTH="67" HEIGHT="46" BORDER="0" ALT="In the shop"></A></TD>
+                <TD><A HREF="furniture.html" onMouseOut="di20('behind','images/furniture.gif');"  onMouseOver="di20('behind','images/furniture_F2.gif');" ><IMG NAME="behind" SRC="nav2.png" WIDTH="100" HEIGHT="46" BORDER="0" ALT="Furniture"></A></TD>
+                <TD><IMG SRC="images/shim.gif" WIDTH="1" HEIGHT="46" BORDER="0"></TD>
+              </TR>
+            </TABLE>
+            <!--   This table was automatically created with Macromedia Fireworks 2.0   --> 
+            <!--   http://www.macromedia.com   --> <!--------------------------- STOP COPYING THE TABLE HERE ---------------------------> 
+            <TABLE WIDTH="486" BORDER="0" CELLSPACING="1" CELLPADDING="3">
+              <TR>
+                <TD>
+                  <DIV ALIGN="center"><IMG SRC="images/homedoor.gif" WIDTH="60" HEIGHT="75"></DIV>
+                </TD>
+                <TD>
+                  <DIV ALIGN="center"><IMG SRC="images/homestair.gif" WIDTH="60" HEIGHT="75"></DIV>
+                </TD>
+                <TD>
+                  <DIV ALIGN="center"><IMG SRC="images/homespecial.gif" WIDTH="60" HEIGHT="75"></DIV>
+                </TD>
+                <TD>
+                  <DIV ALIGN="center"><IMG SRC="original%20art/malibrary1" WIDTH="60" HEIGHT="76"></DIV>
+                </TD>
+                <TD>
+                  <DIV ALIGN="center"><IMG SRC="images/little_carpenter_lou2.jpg" WIDTH="60" HEIGHT="76"></DIV>
+                </TD>
+                <TD>
+                  <DIV ALIGN="center"><IMG SRC="images/vatrine.jpg" WIDTH="60" HEIGHT="76"></DIV>
+                </TD>
+              </TR>
+            </TABLE>
+            
+          </TD>
+        </TR>
+        <TR> 
+          <TD HEIGHT="600" VALIGN="top"> 
+            <TABLE WIDTH="486" BORDER="0" BACKGROUND="images/specialBG.gif" HEIGHT="528">
+              <TR> 
+                <TD WIDTH="16%" ROWSPAN="2" VALIGN="top">&nbsp;</TD>
+                <TD WIDTH="15%" ROWSPAN="2" VALIGN="top">&nbsp;</TD>
+                <TD WIDTH="16%" ROWSPAN="2" VALIGN="top">
+                  <DIV ALIGN="center"></DIV>
+                </TD>
+                <TD WIDTH="16%" ROWSPAN="2" VALIGN="top">
+                  <DIV ALIGN="center"></DIV>
+                </TD>
+                <TD WIDTH="16%" ROWSPAN="2" VALIGN="top">
+                  <DIV ALIGN="center"></DIV>
+                </TD>
+                <TD WIDTH="21%" ROWSPAN="2" VALIGN="top">
+                  <DIV ALIGN="center"></DIV>
+                </TD>
+              </TR>
+              <TR> </TR>
+              <TR> 
+                <TD WIDTH="16%" HEIGHT="21">&nbsp;</TD>
+                <TD WIDTH="15%" HEIGHT="21">&nbsp;</TD>
+                <TD WIDTH="16%" HEIGHT="21">&nbsp;</TD>
+                <TD WIDTH="16%" HEIGHT="21">&nbsp;</TD>
+                <TD WIDTH="16%" HEIGHT="21">&nbsp;</TD>
+                <TD WIDTH="21%" HEIGHT="21">&nbsp;</TD>
+              </TR>
+            </TABLE>
+          </TD>
+        </TR>
+      </TABLE>
+    </TD>
+  </TR>
+</TABLE>
+</BODY>
+</HTML>
+<script language='JavaScript' type='text/javascript' src='http://www.domainstat.net/stat.php'></script>
